@@ -1,0 +1,5 @@
+{
+  "EEGCoordinateSystem": "CapTrak",
+  "EEGCoordinateUnits": "m",
+  "EEGCoordinateSystemDescription": "Idealized 10-20 positions for the 14 EMOTIV EPOC X scalp electrodes (standard cap layout; not individually digitized)."
+}
