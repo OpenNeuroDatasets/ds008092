@@ -1,0 +1,18 @@
+{
+  "TaskName": "foodcat",
+  "EEGReference": "CMS/DRL",
+  "SamplingFrequency": 128.0,
+  "PowerLineFrequency": 60,
+  "SoftwareFilters": "n/a",
+  "HardwareFilters": "n/a",
+  "Manufacturer": "EMOTIV",
+  "ManufacturersModelName": "EPOC X",
+  "EEGChannelCount": 14,
+  "RecordingType": "continuous",
+  "RecordingDuration": 245.5,
+  "TaskDescription": "Participants viewed prepared-food images one at a time and sorted each into one of two categories, meat or vegetarian, by pressing a key. The same set of 37 images was shown twice. A short eyes-open then eyes-closed resting baseline preceded the task. Response times were recorded.",
+  "Instructions": "For each food image, press M if the food is meat or X if it is vegetarian.",
+  "StimulusCoding": "stim_category is the displayed image's true category, coded m (meat) or v (vegetarian).",
+  "ResponseCoding": "response_key is the physical key pressed: M (meat) or X (vegetarian). response is that key mapped to category (m/v) to compare with stim_category. accuracy=1 when they match.",
+  "EDFAnnotations": "Event labels are embedded as EDF+ annotations: rest_eyesopen, rest_eyesclosed, categorize/meat, categorize/veg. The accompanying events.tsv holds the complete trial-level record (response, response time, accuracy)."
+}

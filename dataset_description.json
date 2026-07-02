@@ -1,0 +1,16 @@
+{
+  "Name": "Food-image categorization with consumer EEG (vegetarian vs. meat)",
+  "BIDSVersion": "1.9.0",
+  "DatasetType": "raw",
+  "Authors": [
+    "[ADD AUTHORS]"
+  ],
+  "Acknowledgements": "[OPTIONAL]",
+  "HowToAcknowledge": "[ADD CITATION / DOI AFTER UPLOAD]",
+  "EthicsApprovals": [
+    "[ADD ETHICS APPROVAL NUMBER]"
+  ],
+  "ReferencesAndLinks": [
+    "[ADD ASSOCIATED ARTICLE DOI]"
+  ]
+}
