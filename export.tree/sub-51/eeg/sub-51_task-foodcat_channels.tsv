@@ -1,0 +1,15 @@
+name	type	units	sampling_frequency	contact_quality_mean
+AF3	EEG	uV	128.0	4.0
+F7	EEG	uV	128.0	4.0
+F3	EEG	uV	128.0	4.0
+FC5	EEG	uV	128.0	4.0
+T7	EEG	uV	128.0	4.0
+P7	EEG	uV	128.0	4.0
+O1	EEG	uV	128.0	4.0
+O2	EEG	uV	128.0	4.0
+P8	EEG	uV	128.0	3.55
+T8	EEG	uV	128.0	4.0
+FC6	EEG	uV	128.0	4.0
+F4	EEG	uV	128.0	4.0
+F8	EEG	uV	128.0	4.0
+AF4	EEG	uV	128.0	4.0
