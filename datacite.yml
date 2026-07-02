@@ -23,6 +23,16 @@ data:
             schemeUri: https://orcid.org
         contributorType: Researcher
         order: 2
+      - name: Attila Pohlmann
+        givenName: ''
+        familyName: ''
+        nameType: Personal
+        nameIdentifiers: &ref_2
+          - nameIdentifier: https://orcid.org/0000-0002-2416-2376
+            nameIdentifierScheme: ORCID
+            schemeUri: https://orcid.org
+        contributorType: Researcher
+        order: 3
     creators:
       - name: Attila Pohlmann
         nameType: Personal
@@ -30,6 +40,9 @@ data:
       - name: Attila Pohlmann
         nameType: Personal
         nameIdentifiers: *ref_1
+      - name: Attila Pohlmann
+        nameType: Personal
+        nameIdentifiers: *ref_2
     descriptions:
       - description: N/A
         descriptionType: Abstract
