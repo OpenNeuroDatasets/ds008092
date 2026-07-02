@@ -1,0 +1,16 @@
+{
+  "Name": "EEGLAB .set copies with labelled events",
+  "BIDSVersion": "1.9.0",
+  "DatasetType": "derivative",
+  "GeneratedBy": [
+    {
+      "Name": "custom script",
+      "Description": "EDF + events.tsv -> EEGLAB .set with string event labels; no signal processing"
+    }
+  ],
+  "SourceDatasets": [
+    {
+      "URL": "../.."
+    }
+  ]
+}
