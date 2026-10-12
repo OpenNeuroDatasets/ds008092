@@ -1,3 +1,5 @@
+1.0.3 2026-10-12
+  - Added per-sensor contact- and EEG-quality channels; replaced end-of-file padding with the recording's continuation; added boundary events at segment joins; corrected device model for four recordings; documented hardware filters and resampling; completed dataset description and README.
 1.0.2 2026-07-02
   - public
 1.0.1 2026-07-02
