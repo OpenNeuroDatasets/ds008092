@@ -1,0 +1,45 @@
+# Food-image categorization with consumer EEG (vegetarian vs. meat)
+
+## Overview
+14-channel EEG (EMOTIV EPOC X / EPOC+, scalp positions AF3 F7 F3 FC5 T7 P7 O1
+O2 P8 T8 FC6 F4 F8 AF4) recorded while participants categorized prepared-food
+images as meat or vegetarian. Each recording also includes a short eyes-open /
+eyes-closed resting baseline that precedes the task.
+
+These data were collected within longer sessions that also recorded other
+measures (reported elsewhere). Only the categorization paradigm and its resting
+baseline are released here.
+
+## Task
+The same set of 37 prepared-food images was presented twice (up to ~74 trials).
+On each trial a participant pressed M (meat) or X (vegetarian). Response times
+were recorded.
+
+In the events files:
+- `stim_category` is the displayed image's true category: m (meat) or v (vegetarian).
+- `response_key` is the physical key pressed: M or X.
+- `response` is that key mapped back to category (m/v) so it lines up with `stim_category`.
+- `accuracy` is 1 when `response` matches `stim_category`.
+
+## Files
+- `participants.tsv` / `participants.json`: one row per participant, with
+  demographics, baseline questionnaire, derived dietary indicators, and per-subject
+  task summaries. `.tsv` is tab-separated and opens like a CSV.
+- `sub-NN/eeg/`: the trimmed recording (`_eeg.edf`), `_events.tsv`,
+  `_channels.tsv` (with per-channel contact-quality), and `_eeg.json` sidecar.
+
+## Data quality
+Data are released minimally processed: no filtering, no artifact rejection, no
+ICA. Per-channel EMOTIV contact-quality values are provided in each
+`channels.tsv` so re-users can apply their own quality criteria. The resting
+baseline supports a per-participant eyes-closed alpha-reactivity check.
+
+## Notes for re-use
+- EEG is unfiltered (sidecars report `SoftwareFilters: n/a`).
+- All recordings are sampled at 128 Hz.
+- Event labels are embedded in each EDF as EDF+ annotations (rest_eyesopen, rest_eyesclosed,
+  categorize/meat, categorize/veg), so any reader displays them directly. The events.tsv holds
+  the full trial-level record (response, response time, accuracy).
+- Resting segments were advanced by participant button-press; a fixed 30 s window
+  inside each instructed eyes-open and eyes-closed segment is released.
+- Recording timestamps have been removed; recordings carry a neutral fixed date.
