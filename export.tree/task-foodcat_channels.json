@@ -1,5 +1,0 @@
-{
-  "contact_quality_mean": {
-    "Description": "Mean EMOTIV contact-quality index for this channel across the recording, on the device 0-4 scale (0 = no contact, 4 = good contact). Device-reported electrode contact quality."
-  }
-}
